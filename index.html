@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head ├── script.js          → Funções JS (interações, cálculo, formulário)
+>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prof. João Comandante | Matemática & Educação</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Prof. João Comandante</h1>
+      <p>Espaço Académico de Apoio Pedagógico</p>
+    </div>
+  </header>
+  <nav class="navbar">
+    <div class="container">
+      <a href="#agenda">Agenda</a>
+      <a href="#materiais">Materiais</a>
+      <a href="#ferramentas">Ferramentas</a>
+      <a href="#contato">Contato</a>
+    </div>
+  </nav>
+  <section id="intro" class="section">
+    <div class="container">
+      <h2>📘 Bem-vindo(a) ao Espaço do Professor João</h2>
+      <p>Este site foi criado para facilitar o acesso a conteúdos, interações e ferramentas úteis para a prática pedagógica. Alunos e colegas podem usar este espaço para acompanhar atividades, tirar dúvidas e aceder a materiais de estudo.</p>
+    </div>
+  </section>
+  <section id="agenda" class="section">
+    <div class="container">
+      <h2>📅 Agenda de Aulas</h2>
+      <ul>
+        <li><strong>Segunda-feira:</strong> Matemática 1 (10h - 12h)</li>
+        <li><strong>Quarta-feira:</strong> Estatística (14h - 16h)</li>
+        <li><strong>Sexta-feira:</strong> Matemática Aplicada (09h - 11h)</li>
+      </ul>
+    </div>
+  </section>
+  <section id="materiais" class="section">
+    <div class="container">
+      <h2>📂 Materiais de Estudo</h2>
+      <ul>
+        <li><a href="https://drive.google.com/" target="_blank">Google Drive - Materiais do Semestre</a></li>
+        <li><a href="https://www.dominiopublico.gov.br/" target="_blank">Domínio Público</a></li>
+        <li><a href="https://www.khanacademy.org/" target="_blank">Khan Academy - Matemática</a></li>
+      </ul>
+    </div>
+  </section>
+  <section id="ferramentas" class="section">
+    <div class="container">
+      <h2>🧮 Ferramenta Rápida: Calculadora de Área</h2>
+      <p>Para planeamento de aulas práticas e exemplos cotidianos.</p>
+      <label>Largura (m): <input type="number" id="largura" /></label>
+      <label>Comprimento (m): <input type="number" id="comprimento" /></label>
+      <button onclick="calcularArea()">Calcular</button>
+      <p id="resultado-area"></p>
+    </div>
+  </section>
+  <section id="contato" class="section">
+    <div class="container">
+      <h2>📬 Contato com o Professor</h2>
+      <form id="formulario">
+        <input type="text" placeholder="Teu nome" required />
+        <textarea placeholder="Tua pergunta ou mensagem..." required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+      <p class="info">*Mensagens simuladas. Versão real pode incluir formulário Google ou backend.</p>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <p>© 2025 Professor João Comandante — Desenvolvido por Dala De Carvalho em co-criação com IA.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
